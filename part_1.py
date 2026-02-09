@@ -17,3 +17,12 @@ while i:
 
 for findings in new_findings:
     print(f"New rock type findings: {findings}")
+
+#Task 1.4: Waste Extension
+
+if "Dust" in sample_bay:
+    print("-----Dust Detected-----")
+    print("Removing Dust....")
+    sample_bay.remove("Dust")
+    print("-----Dust Extraction Complete-----")
+    print(f"Remaining Rock types: {sample_bay}")
