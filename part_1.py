@@ -1,5 +1,6 @@
+#Variable containing inital strings
+sample_bay = ["Basalt", "Silica", "Iron", "Dust"]
 
-sample_bay = ["Basalt", "Silica", "Iron", "Dust"]  #Variable containing inital strings
-
-print(sample_bay[0])
-print(sample_bay[3])
+#Analyzing Samples with iterations
+for sample in sample_bay:
+    print(f"Transmitting Data for: {sample}")
