@@ -11,6 +11,7 @@ for sample in sample_bay:
 new_findings = []
 
 i = 3
-while i !=0:
+while i:
+    i = i - 1
     rock_type = str(input("Enter a rock type: "))
-    i-1
+
