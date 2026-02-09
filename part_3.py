@@ -6,3 +6,13 @@ try:
     print(f"Speed Set To: {motor_speed}", "mph")
 except ValueError:
     print("Error: Corrupted Signal. Maintaining Current Speed")
+
+#Task 3.2: The persistent reciever
+def get_coordinate():
+    while True:
+        x = int(input("Enter an X coordinate: "))
+        print(f"X coordinate set to: {x}")
+        break
+except ValueError:
+
+get_coordinate()
