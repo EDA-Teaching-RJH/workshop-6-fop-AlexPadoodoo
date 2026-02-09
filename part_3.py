@@ -13,8 +13,15 @@ def get_coordinate():
         try:
             x = int(input("Enter an X coordinate: "))
             print(f"X coordinate set to: {x}")
-            break
+            if x>100 or x< -100:
+                print("Coordinate out of range! Please try again.")
+            else:
+                break    
         except ValueError:
             print("Invalid Coordinate. Try again")
 
 get_coordinate()
+
+
+#Task 3.3: Range Checks (logical errors)
+#Edit 3.2 to make the speed range appropriate
