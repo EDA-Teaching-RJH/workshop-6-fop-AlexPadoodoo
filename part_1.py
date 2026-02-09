@@ -1,5 +1,5 @@
 
-sample_bay = ["Basalt", "Silica", "Iron", "Dust"]
+sample_bay = ["Basalt", "Silica", "Iron", "Dust"]  #Variable containing inital strings
 
-for sample in sample_bay:
-    print(sample(0))
+print(sample_bay[0])
+print(sample_bay[3])
