@@ -17,7 +17,7 @@ print(rover_status)
 
 #Task 2.3: The Science Log (Nesting)
 mission_log = [
-    {"Site": "Crater A", "Radiation": "Low", "Water": False}
+    {"Site": "Crater A", "Radiation": "Low", "Water": False},
     {"Site": "Dune B", "Radiation": "High", "Water": True}
 ]
 
