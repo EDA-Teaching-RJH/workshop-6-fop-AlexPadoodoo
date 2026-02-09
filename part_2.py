@@ -5,4 +5,4 @@ rover_status = {
     "Camera": "Standby"
 }
 
-print(rover_status["Battery"])
+print(f"Battery Charge: {rover_status["Battery"]}","%")
