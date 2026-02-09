@@ -10,9 +10,11 @@ except ValueError:
 #Task 3.2: The persistent reciever
 def get_coordinate():
     while True:
-        x = int(input("Enter an X coordinate: "))
-        print(f"X coordinate set to: {x}")
-        break
-except ValueError:
+        try:
+            x = int(input("Enter an X coordinate: "))
+            print(f"X coordinate set to: {x}")
+            break
+        except ValueError:
+            print("Invalid Coordinate. Try again")
 
 get_coordinate()
